@@ -1,0 +1,54 @@
+{
+  "imported_on": "2026-09-06",
+  "source_folder": "组织局",
+  "files": [
+    {
+      "source_name": "GAMEOVER.md",
+      "path": "scripts/GAMEOVER.md",
+      "bytes": 227494,
+      "sha256": "a49f5d892f20cf7f47f4998da2482d6da95ddd4ac05ac3f9a3b66f154741a093"
+    },
+    {
+      "source_name": "H2TALK2.md",
+      "path": "scripts/H2TALK2.md",
+      "bytes": 9996,
+      "sha256": "e2f5ab2823d1e071c34c743bf402a5fd90206c521f7c507130808f27c38257da"
+    },
+    {
+      "source_name": "H2TALK3.md",
+      "path": "scripts/H2TALK3.md",
+      "bytes": 8495,
+      "sha256": "2ed745da000dc6e56be0c8f6992266db044f595b6914987020cde0e980145046"
+    },
+    {
+      "source_name": "H2TALK4.md",
+      "path": "scripts/H2TALK4.md",
+      "bytes": 2993,
+      "sha256": "a3bf1f0f336d6368e17b91cd0a5f23c8ca779a609761a890b8c5683c628b5a0f"
+    },
+    {
+      "source_name": "H2TALK5.md",
+      "path": "scripts/H2TALK5.md",
+      "bytes": 2993,
+      "sha256": "a3bf1f0f336d6368e17b91cd0a5f23c8ca779a609761a890b8c5683c628b5a0f"
+    },
+    {
+      "source_name": "H2TALK6.md",
+      "path": "scripts/H2TALK6.md",
+      "bytes": 10904,
+      "sha256": "7e736cb90b6745d0e1c9a5d759f609e979c8f5e912a108a57eea7b3a01640608"
+    },
+    {
+      "source_name": "H2TALk.md",
+      "path": "scripts/H2TALk.md",
+      "bytes": 7744,
+      "sha256": "a0874b85c15bec1e4f5b31cab6a1795fdf584a31a96bf94313af2776b508321b"
+    },
+    {
+      "source_name": "chat-analysis-template.md",
+      "path": "scripts/chat-analysis-template.md",
+      "bytes": 15443,
+      "sha256": "7098cb4f6ed762adb93f5fed18f38770dcb4c248204ffbaad07c0989daca1f8c"
+    }
+  ]
+}

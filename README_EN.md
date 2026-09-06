@@ -4,13 +4,21 @@
 
 > Emotional support, relationship science, and practical strategy in an AI relationship adviser that genuinely takes the user's side.
 
-[![GitHub Stars](https://img.shields.io/github/stars/powerycy/goutoujunshi?style=social)](https://github.com/powerycy/goutoujunshi/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/ytdongfang77/goutoujunshi?style=social)](https://github.com/ytdongfang77/goutoujunshi/stargazers)
 
 If Goutoujunshi helps you spend less time overthinking and make one more clear-headed decision in a relationship, please consider giving it a 🌟 **Star**. Your support helps more people find the project and keeps the knowledge base growing.
 
 Most relationship advice offers only two answers: “Go for it” or “Break up.” Goutoujunshi tries to do better. It starts by acknowledging the user's emotions, then separates facts from assumptions and unknowns. It considers attraction alongside practical circumstances, reciprocity, risk, opportunity cost, and long-term options before turning the analysis into a concrete next step.
 
 This is more than a library of scripted replies. It can analyze chat screenshots, exported text, and the user's account of events while preserving evidence boundaries. It can turn analysis into a message ready to send, a specific invitation, a first-date plan, or a conversation exercise that can be reviewed afterward. It is a Codex Skill for the full relationship lifecycle, designed for diverse relationships and capable of explaining the reasoning behind its advice.
+
+## Organization notes edition (2026-09-06)
+
+This edition, maintained by ytdongfang77, integrates eight Chinese source notes through [the organization guide](references/organization/00-组织局整合指南.md). It adds OFDSP (Observe, Follow, Deepen, Share, Progress), conversation direction, reciprocal effort, and natural short replies. Original files are preserved, including the identical H2TALK4/H2TALK5 pair; load only the relevant references. Anecdotal timing rules and dialogue examples are source material, not universal instructions or scientific guarantees.
+
+See the [Chinese README](README.md) for the full file catalog, examples and testing instructions. Run `python3 scripts/validate_skill.py` and `python3 scripts/test_skill.py` from the repository (Python 3.9+; standard library only). Checks cover imported file hashes and actual memory operations in temporary storage; response quality still requires scenario evaluation in an AI assistant.
+
+Based on [powerycy/goutoujunshi](https://github.com/powerycy/goutoujunshi). Original license notices remain; quoted third-party material retains its respective rights.
 
 ## What It Can Help With
 
@@ -54,7 +62,7 @@ The knowledge base distinguishes stronger research evidence from theoretical fra
 Clone the repository into your Codex Skills directory:
 
 ```bash
-git clone https://github.com/powerycy/goutoujunshi.git ~/.codex/skills/goutoujunshi
+git clone https://github.com/ytdongfang77/goutoujunshi.git ~/.codex/skills/goutoujunshi
 ```
 
 Then enter this in Codex:

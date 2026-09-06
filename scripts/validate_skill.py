@@ -103,6 +103,10 @@ def validate_skill_budget() -> None:
 def validate_inventory(runtime_only: bool) -> None:
     require("agents/openai.yaml")
     require("scripts/memory_store.py")
+    require("references/organization/00-组织局整合指南.md")
+    for filename in ("GAMEOVER.md", "H2TALk.md", "H2TALK2.md", "H2TALK3.md",
+                     "H2TALK4.md", "H2TALK5.md", "H2TALK6.md", "chat-analysis-template.md"):
+        require(f"scripts/{filename}")
     if not runtime_only:
         require("README.md")
         require("LICENSE")
@@ -126,6 +130,7 @@ def validate_routes_and_regressions(runtime_only: bool) -> None:
             "references/practical/ChatLab聊天记录分析适配.md",
             "references/practical/长期记忆与关系档案.md",
             "references/knowledge/04-MBTI人格与匹配.md",
+            "references/organization/00-组织局整合指南.md",
         )
         for route in required_routes:
             if route not in content:
